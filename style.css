@@ -1,0 +1,130 @@
+@font-face{
+    font-family: 'Sans';
+    src: url(../Fonts/WorkSans-VariableFont_wght.ttf);
+}
+body , html {
+    font-family: 'Sans';
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #67a0a1;
+}
+.main{
+    width: 75rem;
+    height: 35rem;
+    background-color: #284d56;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+    position: relative;
+}
+.MainForm{
+    position: absolute;
+    background-color: #e4ae4f;
+    width: 45rem;
+    height: 50rem;
+    transform: rotate(5deg);
+    right: -30px;
+    z-index: 1;
+}
+.Picture{
+    padding: 0 0 0 150px;
+}
+.trapezoid {
+    position: absolute;
+	border-bottom: 190px solid #e4ae4f;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+	height: 0;
+	width: 220px;
+    transform: rotate(90deg);
+    opacity:0.1;
+    left: -65px;
+    top: 180px;
+}
+.login{
+    width: 42rem;
+    height: 35rem;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.form{
+    width: 20rem;
+    height: 18rem;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-size: 13px;
+}
+.fromHeader{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e4ae4f;
+    margin-bottom: 20px;
+}
+.YellowText{
+    color: #e4ae4f;
+}
+.formInputs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.formInputs input{
+    width: 100%;
+    height: 2rem;
+    margin: 15px 0;
+    border: none;
+    border-bottom: 1px solid #e4ae4f;
+}
+.formInputs button{
+    border: none;
+    background-color: #284d56;
+    color: white;
+    width: 100%;
+    height: 3rem;
+    margin: 50px 0 50px 0;
+    cursor: pointer;
+}
+.tools{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tool1{
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+    color: white;
+    cursor: pointer;
+}
+.tool2{
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
